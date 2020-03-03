@@ -1,0 +1,150 @@
+    @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+    body {
+        background-image: linear-gradient(to right, cornsilk, rgb(180, 243, 64));
+        font-family: 'roboto'
+    }
+    
+    #soundarya div {
+        /* Section one styles */
+        margin: 5px 5px 5px 5px;
+    }
+    
+    #soundarya h1,
+    h2,
+    h3
+    /* Section one heading styles */
+    
+    {
+        color: red;
+        font-family: 'roboto';
+        border-width: 1px 1px 1px 1px;
+        border: solid red;
+        border-color: blue;
+        padding: 5px 5px 5px 5px;
+        display: inline-block;
+    }
+    
+    #subi h1
+    /* Section two heading styles */
+    
+    {
+        border: 2px solid blue;
+        display: inline-block;
+        padding: 10px 5px 10px 5px;
+    }
+    
+    #subi h2 {
+        /* Section two heading with border bottom style */
+        border-bottom: solid 3px blue;
+        display: inline-block;
+    }
+    
+    #three .right {
+        /* Section three left division style */
+        margin-left: 300px;
+    }
+    
+    #three .left
+    /* Section three right division style */
+    
+    {
+        float: left;
+        margin-right: 15px;
+    }
+    
+    table,
+    tr,
+    th,
+    td {
+        /* Section one table style */
+        border: 2px solid black;
+        border-collapse: collapse;
+        height: 500%;
+        padding: 20px;
+        background-image: linear-gradient(lightgreen, lightyellow)
+    }
+    /* Section one form styles */
+    
+    #three .form {
+        border: solid 2px black;
+        background-image: linear-gradient(lightgreen, lightyellow);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        box-shadow: 5px 10p;
+        width: 70%;
+        margin: 0 auto;
+    }
+    /* Section one form elements style */
+    
+    label,
+    input {
+        display: inline-block;
+    }
+    
+    label {
+        width: 40%;
+        text-align: right;
+    }
+    
+    #button {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    /* end of form elements style */
+    
+    #box #first {
+        border: 2px solid black;
+        width: 98vw;
+        height: 70vh;
+        background-image: url("../images/scarlet.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        border-radius: 10px;
+    }
+    
+    #box #second {
+        width: 15vw;
+        height: 20vh;
+        border: 1px solid blue;
+        background-color: lightcoral;
+        position: relative;
+        border-radius: 10%;
+        background-image: url("../images/tiger.jpeg");
+        background-size: cover;
+        opacity: 0.5;
+    }
+    
+    #box #third {
+        width: 15vw;
+        height: 20vh;
+        border: 1px solid blue;
+        background-color: lightcoral;
+        position: relative;
+        margin-left: 210px;
+        border-radius: 10%;
+        background-image: url("../images/puppy.jpeg");
+        background-size: cover;
+        opacity: 0.5;
+    }
+    
+    #box #four {
+        width: 15vw;
+        height: 20vh;
+        border: 1px solid blue;
+        background-color: lightcoral;
+        position: relative;
+        margin-left: 420px;
+        background-image: url("../images/bird.jpeg");
+        background-size: cover;
+        border-radius: 10%;
+        opacity: 0.5;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        #box #first {
+            background-color: blue;
+            background-image: none;
+        }
+    }
